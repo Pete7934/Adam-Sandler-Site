@@ -15,10 +15,12 @@
     font-size: 20px;
     }
     .page-row.nr1{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     }
     .page-row.nr2{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     }
     .mainDiv{
     flex-direction: column;

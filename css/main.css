@@ -37,6 +37,7 @@ body{
 .mainHeader{
     background-image: url(../img/adam-collage.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     min-height: 490px;
 }
@@ -111,20 +112,44 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.row.nr1 > div{
+.page-row.nr1.theLegend>div{
+    clear: both;
+}
+.page-row.nr1.theLegend h2{
+    font-size: 50px;
+    color: #fff;
+    margin: 20px 0;
+}
+.page-row.nr1.theLegend div:nth-child(even) img{
+    float: right;
+    margin-left: 8px;
+}
+.page-row.nr1.theLegend img{
+    float: left;
+    margin-right: 8px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.page-row.nr1.theLegend p{
+    color: #fff;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.row.nr1.mainPage > div{
     width: 30%;
     min-height: 200px;
 }
-.row.nr1 a{
+.row.nr1.mainPage a{
     text-decoration: none;
     color: #fff;
     font-size: 30px;
 }
-.row.nr1 h2{
+.row.nr1.mainPage h2{
     background-color: #111;
     padding: 5px;
 }
-.row.nr1 > div img{
+.row.nr1.mainPage > div img{
     width: 100%;
 }
 
@@ -133,6 +158,7 @@ body{
     box-shadow: 5px 5px #444;
     background-color: #000;
     width: 20%;
+    margin-bottom: 20px;
 }
 .row.nr2 img{
     width: 100%;
