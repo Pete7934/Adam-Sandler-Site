@@ -112,8 +112,35 @@ body{
     display: flex;
     justify-content: space-around;
 }
+/*----------------------LEFT SIDE CONTENT----------------------*/
 .page-row.nr1.theLegend>div{
     clear: both;
+}
+.page-row.nr1.upcoming{
+    width: 90%;
+}
+.page-row.nr1.upcoming img{
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+.page-row.nr1.upcoming h2{
+    margin: 20px 0;
+    font-size: 40px;
+    color: #fff;
+}
+.page-row.nr1.upcoming p{
+    line-height: 1.4;
+    font-size: 25px;
+    color: #fff;
+}
+.page-row.nr1.upcoming a{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
 }
 .page-row.nr1.theLegend h2{
     font-size: 50px;
@@ -136,6 +163,7 @@ body{
     margin-left: auto;
     margin-bottom: 20px;
 }
+/*----------------------MAIN PAGE ROW 1----------------------*/
 .row.nr1.mainPage > div{
     width: 30%;
     min-height: 200px;
@@ -152,7 +180,7 @@ body{
 .row.nr1.mainPage > div img{
     width: 100%;
 }
-
+/*----------------------MAIN PAGE ROW 2----------------------*/
 .row.nr2>div{
     padding: 10px;
     box-shadow: 5px 5px #444;
@@ -171,35 +199,36 @@ body{
     padding-bottom: 5px;
     color: #fff;
 }
-.page-row.nr2>div{
+/*----------------------UPCOMING SIDEBAR----------------------*/
+.upcomingSidebar{
     padding: 5px;
     background-color: #111;
     width: 100%;
     margin: 5px;
 }
-.page-row.nr2 p:nth-child(2){
+.upcomingSidebar p:nth-child(2){
     font-size: 28px;
     margin-bottom: 10px;
     font-weight: bolder;
     color: #fff;
 }
-.page-row.nr2 h3{
+.upcomingSidebar h3{
     font-size: 20px;
     color: #fff;
 }
-.page-row.nr2 h2{
+.upcomingSidebar h2{
     font-size: 35px;
     color: #fff;
     font-weight: bolder;
     margin-bottom: 10px;
 }
-.page-row.nr2>div img:nth-child(3){
+.upcomingSidebar img:nth-child(3){
     width: 100%;
 }
-.page-row.nr2>div a{
+.upcomingSidebar a{
     color: #fff
 }
-.page-row.nr2>div img:nth-child(5){
+.upcomingSidebar img:nth-child(5){
     width: 100%;
 }
 /*----------------------FOOTER----------------------*/
