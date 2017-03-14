@@ -1,0 +1,46 @@
+@media only screen and (max-width: 900px) {
+    .page-row.nr2 h2{
+    font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .adam-640pimg{
+        display: block;
+    }
+    .mainHeader{
+        background-image: url(../img/adam-640pimg.jpg);
+    }
+    .row.nr1 a{
+    font-size: 20px;
+    }
+    .page-row.nr1{
+    width: 100%;
+    }
+    .page-row.nr2{
+    width: 100%;
+    }
+    .mainDiv{
+    flex-direction: column;
+    }
+    .page-row.nr2 h2{
+    font-size: 40px;
+    }
+    .page-row.nr2>div img:nth-child(5){
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .nav.primary a{
+        font-size: 25px;
+        margin-top: 16px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .nav.primary a{
+        font-size: 30px;
+        margin-top: 14px;
+    }
+}

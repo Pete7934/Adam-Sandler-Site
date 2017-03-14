@@ -1,12 +1,20 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
 body{
-    background-color: #999;
+    background-image: url(../img/biograf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 1000px;
+    min-width: 600px;
 }
 
 /*----------------------WRAPPER----------------------*/
 .wrapper{
     margin: 0px auto;
     padding: 0px;
-    background-color: #888;
 }
 .wrapper.sm{
     max-width:768px;
@@ -20,19 +28,42 @@ body{
 .wrapper.fw{
     
 }
+/*----------------------HEADER----------------------*/
+.adam-logoimg{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mainHeader{
+    background-image: url(../img/adam-collage.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 490px;
+}
+.headerText{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
 
 /*----------------------NAV-COLLAPSE----------------------*/
 .nav.primary>ul{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    color: #fff;
+}
+.nav.primary{
+    margin-bottom: 20px;
 }
 .nav.primary a{
-    color: #fff;
+    color: inherit;
     min-height: 40px;
     display: block;
-    text-decoration: none;
-    margin-top: 10px;
+    text-decoration: inherit;
+    margin-top: 20px;
+    font-weight: bolder;
 }
 .nav-toggle{
     text-align: center;
@@ -45,8 +76,114 @@ body{
     border-bottom: 2px solid #fff;
 }
 .nav-collapse , .nav-toggle{
-    background-color: #222;
+    background-color: #000;
+    border-top: 2px solid #fff;
 }
 .nav.primary div{
     border: 1px solid #fff;
+}
+.nav.primary li:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+}
+/*----------------------MAIN-CONTENT----------------------*/
+.mainDiv{
+    padding-bottom: 20px;
+    background-color: rgba(80,80,80,0.4);
+}
+.mainDiv h1{
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.page-row.nr1{
+    width: 65%;
+}
+.page-row.nr2{
+    width: 25%;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row.nr1 > div{
+    width: 30%;
+    min-height: 200px;
+}
+.row.nr1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.row.nr1 h2{
+    background-color: #111;
+    padding: 5px;
+}
+.row.nr1 > div img{
+    width: 100%;
+}
+
+.row.nr2>div{
+    padding: 10px;
+    box-shadow: 5px 5px #444;
+    background-color: #000;
+    width: 20%;
+}
+.row.nr2 img{
+    width: 100%;
+}
+.row.nr2 a{
+    text-decoration: none;
+}
+.row.nr2 h2{
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.page-row.nr2>div{
+    padding: 5px;
+    background-color: #111;
+    width: 100%;
+    margin: 5px;
+}
+.page-row.nr2 p:nth-child(2){
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #fff;
+}
+.page-row.nr2 h3{
+    font-size: 20px;
+    color: #fff;
+}
+.page-row.nr2 h2{
+    font-size: 35px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.page-row.nr2>div img:nth-child(3){
+    width: 100%;
+}
+.page-row.nr2>div a{
+    color: #fff
+}
+.page-row.nr2>div img:nth-child(5){
+    width: 100%;
+}
+/*----------------------FOOTER----------------------*/
+.footer{
+    min-height: 100px;
+    background-color: #000;
+    text-align: center;
+}
+.footer p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 80px;
 }
